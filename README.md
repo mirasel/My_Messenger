@@ -7,5 +7,5 @@ Here is some picture of the application.
 ![alt text](image/signin.png)
 ![alt text](image/welcome.png)
 ![alt text](image/activelist.png)
-![alt text](image/mirase.png)
+![alt text](image/mirasel.png)
 ![alt text](image/chat.png)
