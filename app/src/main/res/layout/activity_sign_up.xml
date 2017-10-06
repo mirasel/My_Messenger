@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/SignUP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/colorAccent"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:padding="5dp" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Name"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/nameinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Username"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/usernameinput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/Password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/Passwordinput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="5 digit or more"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/Confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/Confirmpasswordinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="confirmclicked"
+        android:padding="5dp"
+        android:text="Confirm" />
+</LinearLayout>
